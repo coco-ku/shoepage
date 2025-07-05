@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap");
+:root {
+  --h-title: #ffffff;
+  --font-text: #212529;
+  --h5-title: #57a203;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bg-tip-: #f5fee7;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  letter-spacing: 0.05ren;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700 !important;
+  line-height: 1.2;
+}
+
+p,
+li,
+ol,
+a {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+/*==============padding & margin===============*/
+.mb-1 {
+  margin-bottom: 0.1rem !important;
+}
+
+.mb-2 {
+  margin-bottom: 0.8rem !important;
+}
+
+.mb-3 {
+  margin-bottom: 1.2rem !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.6rem !important;
+}
+
+.mb-5 {
+  margin-bottom: 3.2rem !important;
+}
+
+.mb-6 {
+  margin-bottom: 2.4rem !important;
+}
+
+.mt-6 {
+  margin-top: 2.4rem !important;
+}
+
+.p-2 {
+  padding: 2rem !important;
+}
+
+.pb-6 {
+  padding-bottom: 2.4rem !important;
+}
+
+/*===============style set======================*/
+.header {
+  max-width: 100%;
+  background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/refs/heads/main/2025-week1/hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.header .header-text {
+  padding: 151px 0;
+}
+.header .header-text .title_tw {
+  color: var(--h-title);
+  font-size: 40px;
+}
+.header .header-text .title_en {
+  color: var(--h-title);
+  font-size: 28px;
+}
+
+.container {
+  max-width: 1920px;
+}
+
+.section {
+  max-width: 1076px;
+}
+
+.tip_bg {
+  background-color: var(--bg-tip-);
+}
+
+.article {
+  margin: 0;
+  max-width: 856px;
+}
+
+.h5 {
+  font-size: 20px;
+  margin-bottom: 0.75rem;
+  color: var(--h5-title);
+}
+
+.h4 {
+  color: var(--sub-title);
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+
+li {
+  color: var(--font-text);
+  padding-left: 0;
+  list-style-position: inside;
+  margin-bottom: 12px;
+}
+
+li:nth-child(3) {
+  margin-bottom: 0px;
+}
+
+.time {
+  border-right: 1px solid #212529;
+  padding-right: 4px;
+  margin-right: 4px;
+}
+
+.border-l-3 {
+  padding-left: 10px;
+  border-left: 3px solid #DEE2E6;
+}
+
+.list-style-none {
+  list-style-type: none;
+}
+
+.story i {
+  padding-right: 10px;
+}
+.story a {
+  color: rgb(87, 162, 3);
+}
+.story a:hover {
+  color: rgb(255, 157, 0);
+}
+
+.footer {
+  padding: 64px 0;
+  text-align: center;
+  background: rgb(248, 249, 250);
+}
+.footer .coptyright {
+  color: rgb(108, 117, 125);
+  padding: 1px 0;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.05rem;
+}
